@@ -8,18 +8,18 @@ if os.path.exists("local.env"):
 load_dotenv()
 class Config(object):
     log = True
-    APP_ID = getenv("API_ID", "6435225")
-    API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "")
-    OWNER_ID = getenv("OWNER_ID")
-    STRING_SESSION = getenv("STRING_SESSION", "")
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "")
-    DB_URI = getenv("DATABASE_URL", "")
+    APP_ID = getenv("API_ID", "16743442")
+    API_HASH = getenv("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
+    TOKEN = getenv("TOKEN", "6060441968:AAHUHSjx-Uam3M_rY2YuF3C7Pq4R-SNi8i4")
+    OWNER_ID = getenv("OWNER_ID","5885920877")
+    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOLwBuzjDbfUHWsRZiwufj6zTtV0wWV85gGTNPTo3du_kyr8uNcR93HrWnBPk--xAuVcM9moy9I2B8DCrA_PvO2x5YhpXoiVacDX3IcUIXz8dPlkv88z13ILrRR7Zhondifvg-qcBPVywSRbM2oAf_3PrguDjU1u1IoMtWeKa0_iahysyrHhm4lND9PjtexbLrwaqK_4L9Oy3Hma7CUzR_X9_oaNCHPn79UVVTjoITHM7JnYQDzmabosOh4K4I7u6VLhDyXD82PGJVy9DnTTPLfUmYUrCHL7cjVQMB34CIVaQ9gL2VXsGTnBkO54-dDhdAw0q1avFYPM4DWyHp1NeFNOC1lA=")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "MH17_KUNAL")
+    DB_URI = getenv("DATABASE_URL", "postgres://pktttuoh:1LPQQKhy2mpOES27_qF-zAvbUTnEhkAT@balarama.db.elephantsql.com/pktttuoh")
     DB_URI = DB_URI.replace("postgres", "postgresql")
-    MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
-    GBAN_LOGS = getenv("GBAN_LOGS", "-1001509525202")
+    MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001935950378")
+    GBAN_LOGS = getenv("GBAN_LOGS", "-1001935950378")
     SYS_ADMIN = getenv("SYS_ADMIN", "1669178360")
-    DEV_USERS = getenv("DEV_USERS", "1669178360")
+    DEV_USERS = getenv("DEV_USERS", "5885920877")
     LOAD = getenv("LOAD")
     WEBHOOK = False
     SPB_MODE = True
